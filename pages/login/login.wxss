@@ -1,0 +1,46 @@
+/* pages/login/login.wxss */
+/* page{
+  height: 100%;
+} */
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  padding: 30rpx;
+}
+input{
+  height: 80rpx;
+  border: 1px solid #FF0000;
+  border-radius: 10rpx;
+  padding-left: 20rpx;
+
+}
+.phone_number{
+  margin: 16rpx 0;
+}
+.code{
+  display: flex;
+  width:100%;
+  margin: 16rpx 0;
+}
+.code_number{
+  flex: 1;
+}
+.btn_code{
+  margin-left: 16rpx;
+  background-color: #FF0000;
+  color: white;
+
+}
+.btn_login{
+  background-color: #FF0000;
+  color: white;
+}
+text{
+  display: flex;
+  font-size: 36rpx;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 116rpx;
+  color:#FF0000
+}
